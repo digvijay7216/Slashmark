@@ -20,7 +20,7 @@ window.title("Number Guessing Game")
 
 generate_number()
 
-instruction_label = tk.Label(window, text="Guess a number between 1 and 100:")
+instruction_label = tk.Label(window, text="Guess the number between 1 and 100:")
 instruction_label.pack()
 
 entry = tk.Entry(window)
